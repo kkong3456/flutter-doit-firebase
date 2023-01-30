@@ -25,8 +25,9 @@ class _MemoPageState extends State<MemoPage> {
   PushNotification? _notificationInfo;
 
   late AdWidget adWidget;
+  InterstitialAd? _interstitialAd;
 
-//ca-app-pub-3940256099942544/6300978111 : 테스트 광고단위
+//ca-app-pub-3940256099942544/6300978111 : 배너 테스트 광고단위
   final BannerAd bannerAd = BannerAd(
     adUnitId: 'ca-app-pub-3940256099942544/6300978111',
     size: AdSize.banner,
@@ -44,6 +45,9 @@ class _MemoPageState extends State<MemoPage> {
     onAdClosed: (Ad ad) => print('Ad closed'),
     onAdImpression: (Ad ad) => print('Ad impression.'),
   );
+
+  // ca-app-pub-3940256099942544/1033173712  :전면광고 테스트 광고단위 아이디
+  // flutter는 전면광고가 베터버전으로 표시되어있음 . InterstitialAd 타입 인식못함 google admob
 
   @override
   void initState() {
