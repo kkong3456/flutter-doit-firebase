@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326773378862",
+    "project_id": "doit-example",
+    "storage_bucket": "doit-example.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326773378862:android:14909b10f6281280c5f4bf",
+        "android_client_info": {
+          "package_name": "com.example.flutter_doit_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326773378862-rc81lvb8ve1tfg7h7vro7cg8f249urlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp3YniBK47yIDOoene-uXdMWIXqBUk3U0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326773378862-rc81lvb8ve1tfg7h7vro7cg8f249urlr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
